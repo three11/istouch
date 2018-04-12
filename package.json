@@ -1,5 +1,5 @@
 {
-  "name": "is-touch-device",
+  "name": "istouch",
   "version": "0.0.1",
   "description": "Use JS to detect touch-enabled device",
   "main": "dist/index.js",
