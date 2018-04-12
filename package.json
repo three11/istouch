@@ -1,0 +1,31 @@
+{
+  "name": "is-touch-device",
+  "version": "0.0.1",
+  "description": "Use JS to detect touch-enabled device",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scriptex/istouch.git"
+  },
+  "keywords": [
+    "Touch",
+    "Mobile",
+    "Detect",
+    "Device"
+  ],
+  "author": "Atanas Atanasov <scriptex.bg@gmail.com> (http://atanas.info)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scriptex/istouch/issues"
+  },
+  "homepage": "https://github.com/scriptex/istouch#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-stage-2": "^7.0.0-beta.42"
+  }
+}
