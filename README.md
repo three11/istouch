@@ -5,19 +5,19 @@ Use JS to detect touch-enabled device
 ## Install
 
 ```
-npm i istouch
+npm i @three11/istouch
 ```
 
 or
 
 ```
-yarn add istouch
+yarn add @three11/istouch
 ```
 
 ## Usage
 
 ```
-import { setTouchClass } from 'istouch';
+import { setTouchClass } from '@three11/istouch';
 
 setTouchClass();
 ```
