@@ -22,6 +22,14 @@ import { setTouchClass } from '@three11/istouch';
 setTouchClass();
 ```
 
+Or you can just check if the device you use is touch-enabled:
+
+```
+import isTouch from '@three11/istouch';
+
+console.log(isTouch);
+```
+
 ## Customization
 
 By default, the module sets a classname to the `<html>` tag.
