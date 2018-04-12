@@ -1,5 +1,5 @@
 {
-  "name": "istouch",
+  "name": "@three11/istouch",
   "version": "0.0.1",
   "description": "Use JS to detect touch-enabled device",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scriptex/istouch.git"
+    "url": "git+https://github.com/three11/istouch.git"
   },
   "keywords": [
     "Touch",
@@ -16,12 +16,28 @@
     "Detect",
     "Device"
   ],
-  "author": "Atanas Atanasov <scriptex.bg@gmail.com> (http://atanas.info)",
+  "authors": [
+    {
+      "name": "Three 11 Ltd",
+      "email": "contact.three11@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Alexander Panayotov",
+      "email": "alexander.panayotov@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Atanas Atanasov",
+      "email": "scriptex.bg@gmail.com",
+      "role": "Developer"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scriptex/istouch/issues"
+    "url": "https://github.com/three11/istouch/issues"
   },
-  "homepage": "https://github.com/scriptex/istouch#readme",
+  "homepage": "https://github.com/three11/istouch#readme",
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.42",
     "@babel/core": "^7.0.0-beta.42",
