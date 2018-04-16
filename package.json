@@ -1,6 +1,6 @@
 {
   "name": "@three11/istouch",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Use JS to detect touch-enabled device",
   "main": "dist/index.js",
   "scripts": {
