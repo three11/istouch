@@ -14,6 +14,14 @@ or
 yarn add @three11/istouch
 ```
 
+or
+
+Just download this repository and link the files located in dist folder:
+
+```
+<script src="dist/index.min.js"></script>
+```
+
 ## Usage
 
 ```
