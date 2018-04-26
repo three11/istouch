@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/dt/@three11/istouch.svg)](https://www.npmjs.com/package/@three11/istouch)
+
 # isTouch
 
 Use JS to detect touch-enabled device
