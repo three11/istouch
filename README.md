@@ -3,7 +3,7 @@
 [![GitHub release](https://img.shields.io/github/release/three11/istouch.svg)](https://github.com/three11/istouch/releases/latest)
 [![GitHub issues](https://img.shields.io/github/issues/three11/istouch.svg)](https://github.com/three11/istouch/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/three11/istouch.svg)](https://github.com/three11/istouch/commits/master)
-[![Github file size](https://img.shields.io/github/size/three11/istouch/index.js.svg)](https://github.com/three11/istouch/dist/index.min.js)
+[![Github file size](https://img.shields.io/github/size/three11/istouch/index.js.svg)](https://github.com/three11/istouch/blob/master/dist/index.min.js)
 [![npm](https://img.shields.io/npm/dt/@three11/istouch.svg)](https://www.npmjs.com/package/@three11/istouch)
 [![npm](https://img.shields.io/npm/v/@three11/istouch.svg)](https://www.npmjs.com/package/@three11/istouch)
 [![license](https://img.shields.io/github/license/three11/istouch.svg)](https://github.com/three11/istouch)
@@ -11,7 +11,7 @@
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/three11/istouch/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/three11/istouch/graphs/commit-activity)
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/three11/)
+[![ForTheBadge built-with-love](https://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/three11/)
 
 # isTouch
 
