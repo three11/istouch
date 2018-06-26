@@ -11,8 +11,9 @@
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/three11/istouch/README.md)](https://github.com/three11/istouch/)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/three11/istouch/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/three11/istouch/graphs/commit-activity)
+[![Greenkeeper badge](https://badges.greenkeeper.io/three11/istouch.svg)](https://greenkeeper.io/)
 
-[![ForTheBadge built-with-love](https://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/three11/) [![Greenkeeper badge](https://badges.greenkeeper.io/three11/istouch.svg)](https://greenkeeper.io/)
+[![ForTheBadge built-with-love](https://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/three11/)
 
 # isTouch
 
