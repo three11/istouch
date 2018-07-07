@@ -12,6 +12,8 @@
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/three11/istouch/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/three11/istouch/graphs/commit-activity)
 [![Greenkeeper badge](https://badges.greenkeeper.io/three11/istouch.svg)](https://greenkeeper.io/)
+[![dependencies Status](https://david-dm.org/three11/istouch/status.svg)](https://david-dm.org/three11/istouch)
+[![devDependencies Status](https://david-dm.org/three11/istouch/dev-status.svg)](https://david-dm.org/three11/istouch?type=dev)
 
 [![ForTheBadge built-with-love](https://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/three11/)
 
