@@ -3,7 +3,7 @@
 [![GitHub release](https://img.shields.io/github/release/three11/istouch.svg)](https://github.com/three11/istouch/releases/latest)
 [![GitHub issues](https://img.shields.io/github/issues/three11/istouch.svg)](https://github.com/three11/istouch/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/three11/istouch.svg)](https://github.com/three11/istouch/commits/master)
-[![Github file size](https://img.shields.io/github/size/three11/istouch/dist/index.min.js.svg)](https://github.com/three11/istouch/)
+[![Github file size](https://img.shields.io/github/size/three11/istouch/dist/istouch.min.js.svg)](https://github.com/three11/istouch/)
 [![Build Status](https://travis-ci.org/three11/istouch.svg?branch=master)](https://travis-ci.org/three11/istouch)
 [![npm](https://img.shields.io/npm/dt/@three11/istouch.svg)](https://www.npmjs.com/package/@three11/istouch)
 [![npm](https://img.shields.io/npm/v/@three11/istouch.svg)](https://www.npmjs.com/package/@three11/istouch)
