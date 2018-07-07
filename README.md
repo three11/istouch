@@ -23,13 +23,13 @@ Use JS to detect touch-enabled device
 
 ## Install
 
-```console
+```sh
 npm i @three11/istouch
 ```
 
 or
 
-```console
+```sh
 yarn add @three11/istouch
 ```
 
@@ -38,7 +38,15 @@ or
 Just download this repository and link the files located in dist folder:
 
 ```html
-<script src="dist/index.min.js"></script>
+<script src="path-to-istouch/dist/istouch.min.js"></script>
+```
+
+or
+
+Include it from Unpkg CDN
+
+```html
+<script src="//unpkg.com/@three11/istouch/dist/istouch.min.js"></script>
 ```
 
 ## Usage
