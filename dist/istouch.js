@@ -10,16 +10,17 @@
     factory(mod.exports);
     global.istouch = mod.exports;
   }
-})(this, function (_exports) {
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this, function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
     value: true
   });
-  _exports.setTouchClass = _exports.default = void 0;
+  _exports.setTouchClass = _exports["default"] = void 0;
+  // prettier-ignore
   var isTouch = 'ontouchstart' in document.documentElement || navigator.MaxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
   var _default = isTouch;
-  _exports.default = _default;
+  _exports["default"] = _default;
 
   var setTouchClass = function setTouchClass() {
     var el = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : document.documentElement;
