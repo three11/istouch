@@ -42,9 +42,12 @@
 		"build": "yarn clean && microbundle && yarn copy"
 	},
 	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "5.45.0",
+		"@typescript-eslint/parser": "5.45.0",
 		"eslint": "8.28.0",
 		"eslint-config-prettier": "8.5.0",
-		"microbundle": "0.15.1"
+		"microbundle": "0.15.1",
+		"typescript": "4.9.3"
 	},
 	"type": "module",
 	"source": "src/istouch.ts",
