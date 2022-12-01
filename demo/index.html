@@ -8,12 +8,42 @@
 		/>
 
 		<title>isTouch Demo</title>
+
+		<style>
+			html,
+			body {
+				height: 100%;
+			}
+
+			body {
+				font-family: monospace;
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.touch {
+				background-color: salmon;
+			}
+
+			.no-touch {
+				background-color: rebeccapurple;
+			}
+		</style>
 	</head>
 	<body>
-		<script type="module">
-			import { setTouchClass } from '../src/istouch.js';
+		<h1>This devices <span class="is-touch">is</span><span class="is-notouch">is not</span> touch enabled.</h1>
+
+		<script src="./dist/istouch.js"></script>
+		<script>
+			var setTouchClass = window.isTouch.setTouchClass;
+			var isTouchEnabled = window.isTouch.isTouch;
 
 			setTouchClass();
+
+			document.querySelector('.is-touch').style.display = isTouchEnabled ? 'inline' : 'none';
+			document.querySelector('.is-notouch').style.display = isTouchEnabled ? 'none' : 'inline';
 		</script>
 	</body>
 </html>

@@ -1,23 +1,19 @@
 {
 	"name": "@three11/istouch",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Use JS to detect touch-enabled device",
-	"main": "dist/istouch.js",
-	"scripts": {
-		"dist": "babel src/istouch.js --out-file dist/istouch.js",
-		"minify": "babel src/istouch.js --out-file dist/istouch.min.js --presets minify,@babel/env",
-		"build": "npm run dist && npm run minify"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/three11/istouch.git"
-	},
 	"keywords": [
-		"Touch",
-		"Mobile",
-		"Detect",
-		"Device"
+		"Detect touch",
+		"Set touch classes",
+		"Remove touch classes",
+		"Detect touch device",
+		"Detect touch-enabled device"
 	],
+	"homepage": "https://github.com/three11/istouch#readme",
+	"bugs": {
+		"url": "https://github.com/three11/istouch/issues"
+	},
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Three 11 Ltd",
@@ -35,16 +31,26 @@
 			"role": "Developer"
 		}
 	],
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/three11/istouch/issues"
+	"main": "dist/istouch.js",
+	"types": "dist/istouch.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "github:three11/istouch"
 	},
-	"homepage": "https://github.com/three11/istouch#readme",
+	"scripts": {
+		"lint": "eslint 'src/**/*.ts'",
+		"copy": "cp -r dist demo",
+		"clean": "rm -rf dist && rm -rf demo/dist",
+		"build": "yarn clean && rollup -c && yarn copy"
+	},
 	"devDependencies": {
-		"@babel/cli": "7.19.3",
-		"@babel/core": "7.20.5",
-		"@babel/plugin-transform-modules-umd": "7.18.6",
-		"@babel/preset-env": "7.20.2",
-		"babel-minify": "0.5.2"
+		"@rollup/plugin-commonjs": "23.0.3",
+		"@rollup/plugin-typescript": "10.0.1",
+		"@typescript-eslint/eslint-plugin": "5.45.0",
+		"@typescript-eslint/parser": "5.45.0",
+		"eslint": "8.28.0",
+		"eslint-config-prettier": "8.5.0",
+		"rollup": "3.5.1",
+		"typescript": "4.9.3"
 	}
 }
