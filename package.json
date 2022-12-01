@@ -31,8 +31,6 @@
 			"role": "Developer"
 		}
 	],
-	"main": "dist/istouch.js",
-	"types": "dist/istouch.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "github:three11/istouch"
@@ -41,16 +39,21 @@
 		"lint": "eslint 'src/**/*.ts'",
 		"copy": "cp -r dist demo",
 		"clean": "rm -rf dist && rm -rf demo/dist",
-		"build": "yarn clean && rollup -c && yarn copy"
+		"build": "yarn clean && microbundle && yarn copy"
 	},
 	"devDependencies": {
-		"@rollup/plugin-commonjs": "23.0.3",
-		"@rollup/plugin-typescript": "10.0.1",
-		"@typescript-eslint/eslint-plugin": "5.45.0",
-		"@typescript-eslint/parser": "5.45.0",
 		"eslint": "8.28.0",
 		"eslint-config-prettier": "8.5.0",
-		"rollup": "3.5.1",
-		"typescript": "4.9.3"
-	}
+		"microbundle": "0.15.1"
+	},
+	"type": "module",
+	"source": "src/istouch.ts",
+	"exports": {
+		"require": "./dist/istouch.cjs",
+		"default": "./dist/istouch.modern.js"
+	},
+	"main": "./dist/istouch.cjs",
+	"types": "./dist/istouch.d.ts",
+	"module": "./dist/istouch.module.js",
+	"unpkg": "./dist/istouch.umd.js"
 }

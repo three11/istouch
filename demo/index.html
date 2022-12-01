@@ -21,6 +21,7 @@
 				display: flex;
 				align-items: center;
 				justify-content: center;
+				margin: 0;
 			}
 
 			.touch {
@@ -35,10 +36,10 @@
 	<body>
 		<h1>This devices <span class="is-touch">is</span><span class="is-notouch">is not</span> touch enabled.</h1>
 
-		<script src="./dist/istouch.js"></script>
+		<script src="./dist/istouch.umd.js"></script>
 		<script>
-			var setTouchClass = window.isTouch.setTouchClass;
-			var isTouchEnabled = window.isTouch.isTouch;
+			var setTouchClass = window.istouch.setTouchClass;
+			var isTouchEnabled = window.istouch.isTouch;
 
 			setTouchClass();
 
