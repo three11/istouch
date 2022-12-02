@@ -50,13 +50,13 @@
 		"typescript": "4.9.3"
 	},
 	"type": "module",
-	"source": "src/istouch.ts",
+	"source": "src/is-touch.ts",
 	"exports": {
-		"require": "./dist/istouch.cjs",
-		"default": "./dist/istouch.modern.js"
+		"require": "./dist/is-touch.cjs",
+		"default": "./dist/is-touch.modern.js"
 	},
-	"main": "./dist/istouch.cjs",
-	"types": "./dist/istouch.d.ts",
-	"module": "./dist/istouch.module.js",
-	"unpkg": "./dist/istouch.umd.js"
+	"main": "./dist/is-touch.cjs",
+	"types": "./dist/is-touch.d.ts",
+	"module": "./dist/is-touch.module.js",
+	"unpkg": "./dist/is-touch.umd.js"
 }

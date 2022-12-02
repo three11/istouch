@@ -13,7 +13,7 @@
 		"isolatedModules": true,
 		"jsx": "react",
 		"lib": ["DOM", "ESNext"],
-		"module": "ES2015",
+		"module": "ESNext",
 		"moduleResolution": "Node",
 		"noEmit": false,
 		"noEmitHelpers": false,
@@ -32,7 +32,7 @@
 		"strictFunctionTypes": true,
 		"strictPropertyInitialization": true,
 		"strictNullChecks": true,
-		"target": "ES5"
+		"target": "ESNext"
 	},
 	"include": ["src/*.ts"],
 	"exclude": ["node_modules"]

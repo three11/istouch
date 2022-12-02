@@ -9,6 +9,11 @@
 
 		<title>isTouch Demo</title>
 
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
+		/>
+
 		<style>
 			html,
 			body {
@@ -34,9 +39,18 @@
 		</style>
 	</head>
 	<body>
-		<h1>This devices <span class="is-touch">is</span><span class="is-notouch">is not</span> touch enabled.</h1>
+		<a
+			href="https://github.com/three11/istouch"
+			title="See code on Github"
+			class="github-fork-ribbon"
+			data-ribbon="See code on Github"
+		>
+			See code on Github
+		</a>
 
-		<script src="./dist/istouch.umd.js"></script>
+		<h1>This device <span class="is-touch">is</span><span class="is-notouch">is not</span> touch enabled.</h1>
+
+		<script src="./dist/is-touch.umd.js"></script>
 		<script>
 			var setTouchClass = window.istouch.setTouchClass;
 			var isTouchEnabled = window.istouch.isTouch;
