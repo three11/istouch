@@ -8,12 +8,57 @@
 		/>
 
 		<title>isTouch Demo</title>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
+		/>
+
+		<style>
+			html,
+			body {
+				height: 100%;
+			}
+
+			body {
+				font-family: monospace;
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin: 0;
+			}
+
+			.touch {
+				background-color: salmon;
+			}
+
+			.no-touch {
+				background-color: rebeccapurple;
+			}
+		</style>
 	</head>
 	<body>
-		<script type="module">
-			import { setTouchClass } from '../src/istouch.js';
+		<a
+			href="https://github.com/three11/istouch"
+			title="See code on Github"
+			class="github-fork-ribbon"
+			data-ribbon="See code on Github"
+		>
+			See code on Github
+		</a>
+
+		<h1>This device <span class="is-touch">is</span><span class="is-notouch">is not</span> touch enabled.</h1>
+
+		<script src="./dist/is-touch.umd.js"></script>
+		<script>
+			var setTouchClass = window.istouch.setTouchClass;
+			var isTouchEnabled = window.istouch.isTouch;
 
 			setTouchClass();
+
+			document.querySelector('.is-touch').style.display = isTouchEnabled ? 'inline' : 'none';
+			document.querySelector('.is-notouch').style.display = isTouchEnabled ? 'none' : 'inline';
 		</script>
 	</body>
 </html>
